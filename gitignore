@@ -1,0 +1,32 @@
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Results (generated files)
+results/figures/*.png
+results/figures/*.pdf
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
